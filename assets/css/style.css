@@ -1,0 +1,44 @@
+body {
+    background-image: url("../images/707151-grunge-music-wallpaper-1920x1080-for-windows-10.jpg");
+}
+
+header {
+    font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+    font-weight: 400; 
+    font-size: 20px;
+    color: white;
+    height: 150px;
+    width: 80% auto; 
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+h1 { 
+ 
+
+}
+.underscore {
+    font-size: 75px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    color: white;
+}
+
+.wrongGuess{
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    color: white;
+    font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+
+}
+.rightGuess {
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    color: white;
+    font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+
+}
