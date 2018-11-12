@@ -92,11 +92,11 @@ function compareLetters(userKey) {
 }
 
 function winLose() {
-    // When number blanks if filled with right words then you win
+    // WHEN YOU FILL IN ALL UNDERSCORES YOU WIN
     if (rightGuessCounter === numBlanks) {
-        //Counts Wins 
+        //WIN COUNT 
         winCount++;
-        //Changes HTML
+        //CHANGE HTML
         document.getElementById('winCounter').innerHTML = winCount;
         alert('METAL HEAD! TAKE A SHOWER!');
         reset();
@@ -122,7 +122,6 @@ document.onkeyup = function (event) {
     for (var i = 0; i < doubleWord.length; i++) {
         if (letterGuessed === doubleWord[i] && test === true) {
             var spliceDword = doubleWord.splice(i, 1);
-            //Test / Debug
             console.log('Double word is = ' + doubleWord[i])
             console.log('Spliced Word is = ' + spliceDword);
 
